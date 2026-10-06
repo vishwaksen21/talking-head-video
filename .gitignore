@@ -12,3 +12,9 @@ venv/
 *.mp3
 *.flac
 converted/
+
+# Studio app: secrets and generated media
+.env
+studio/data/
+node_modules/
+studio/bin/

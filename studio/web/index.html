@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voice Studio</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#/create" aria-label="Voice Studio home">
+        <img src="logo.png" alt="Prudential" class="logo">
+        <span class="brand-name">Voice Studio</span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#/create" data-route="create">Create</a>
+        <a href="#/projects" data-route="projects">Projects</a>
+        <a href="#/chatterbox" data-route="chatterbox">Chatterbox</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="page" tabindex="-1"></main>
+
+  <footer class="footer">
+    <img src="logo.png" alt="" class="footer-logo">
+    <span>Videos are generated through the Utilities API. Voices are created on this Mac with Chatterbox.</span>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
